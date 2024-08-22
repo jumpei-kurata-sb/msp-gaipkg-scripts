@@ -15,7 +15,7 @@ urllib3.disable_warnings()
 COSMOS_URL = "https://cosmos-v315-msp-prd-jpeast-001.documents.azure.com:443/" # Cosmos DBのURLを指定してください
 MASTER_KEY = "" # マスターキーを指定してください
 COSMOS_DATABASE = "openai" # データベース名を指定してください 例: openai 
-USER_COUNT = 13000 # 作成するユーザー数を指定してください
+USER_COUNT = 15000 # 作成するユーザー数を指定してください
 DEFAULT_ROLE_ID = "default_role" # ここは変更不要
 
 sem = asyncio.Semaphore(10) # 並列数を指定。特に理由がなければ変更不要
